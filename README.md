@@ -1,18 +1,19 @@
 # MonitoringProcces_Test
-Monitoring proccess on Linux system using bash and system
 
+Monitoring process on Linux system using **bash** and **systemd**.
 
+---
 
-Предполагаемые пути файлов:
+## Предполагаемые пути файлов:
 
-monitoring.sh - ~/usr/local/bin/monitoring.sh
+- `monitoring.sh` → `/usr/local/bin/monitoring.sh`  
+- `monitoring.service` → `/etc/systemd/system/monitoring.service`  
+- `monitoring.timer` → `/etc/systemd/system/monitoring.timer` 
 
-monitoring.service - /etc/systemd/system/monitoring.service
-
-monitoring.timer - /etc/systemd/system/monitoring.timer
-
-
+---
 
 Разумеется необходимо выдать права на запуск скрипту с помощью:
 
-chmod +x ~/usr/local/bin/monitoring.sh
+```bash
+chmod +x /usr/local/bin/monitoring.shh
+```
