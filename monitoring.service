@@ -1,0 +1,6 @@
+[Unit]
+Description=Monitoring service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/monitoring.sh
